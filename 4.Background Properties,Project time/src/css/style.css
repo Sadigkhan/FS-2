@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.first{
+    width: 100%;
+    padding: 16rem;
+    background-image: url("../img/bg-masthead.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.first h1{
+font-size: 88px;
+color: #212529;
+}
+
+.first h3 em{
+    font-size: 28px;
+    color: #212529;
+}
+.first h3{
+    margin-bottom: 45px;
+}
+.first a{
+    font-size: 16px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #1d809f;
+    padding: 20px 40px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.first a:hover{
+    background-color: #196d87
+}
+
+
+.second{
+    width:100%;
+    padding: 8rem;
+    text-align: center;
+}
+
+
+.second h2{
+    font-size: 32px;
+    color: #212529;
+    margin-bottom: 5px;
+}
+.second p{
+    font-size: 20px;
+    color:#212529;
+    margin-bottom: 35px;
+}
+
+.second p a{
+    font-size: 20px;
+    color: #1d809f;
+}
+
+
+.btn{
+    font-size: 16px;
+    padding: 20px 40px;
+    border-radius: 5px;
+    background-color: #212529;
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+
+}
+
+.btn:hover{
+    background-color: #424649;
+}
+
+.second a:nth-child(1){
+    color: red ;
+}

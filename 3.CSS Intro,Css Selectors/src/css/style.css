@@ -1,0 +1,90 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#LoginForm{
+    width: 40%;
+    margin: auto;
+    margin-top: 130px ;
+    border: 1px double #ccc;
+    padding: 53px;
+    border-radius: 5px;
+}
+
+.inp{
+    width: 100%;
+    margin: 15px 0 0 0;
+    height: 35px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+#LoginForm .loginh1{
+    text-align: center;
+    color: #1877F2;
+}
+
+.submit-login{
+    margin-top: 10px;
+    width: 100%;
+    background-color: #1877F2;
+    border: none;
+    border-radius: 5px;
+    padding: 15px;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    transition: .5s;
+
+}
+
+.submit-login:hover{
+    background-color: red;
+    
+}
+
+.box{
+    width: 20%;
+    height: 40px;
+    background-color: red;
+    margin:5px;
+}
+
+
+:nth-child(2){
+    background-color: green;
+} */
+
+.box1{
+    background-image: url('../img/01212022-1047259374-coding-classes_scanrail\ \(1\).jpg');
+}
+.box2{
+    background-image: url('../img/download.jpeg')
+}
+
+.box3{
+    background-image: url('../img/shutterstock_535124956-scaled.jpg');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box{
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h1{
+    color: white;
+    text-align: center;
+}
