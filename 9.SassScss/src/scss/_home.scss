@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.all-header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+
+    .navbar {
+        background-color: red;
+
+        a {
+            text-decoration: none;
+            margin-left: 20px;
+            color: white;
+        }
+    }
+}
+
+.homeh2{
+    color: red;
+}

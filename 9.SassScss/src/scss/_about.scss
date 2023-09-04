@@ -1,0 +1,26 @@
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.all-header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+
+    .navbar {
+        background-color: red;
+
+        a {
+            text-decoration: none;
+            margin-left: 20px;
+            color: white;
+        }
+    }
+}
+
+.abouth2{
+    color: aqua;
+}

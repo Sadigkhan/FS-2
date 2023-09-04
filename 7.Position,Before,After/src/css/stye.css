@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.first{
+    position: relative;
+    width: 500px;
+    height: 500px;
+    background-color: red;
+}
+
+.second{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    transition: 7s;
+}
+
+.first:hover .second{
+  
+    transform: translate(-50%,-50%);
+      top: 30%;
+     left: 30%;
+}
+
+
+
+/* i{
+    right: 50px;
+    bottom: 50px;
+    position: fixed;
+    background-color: aqua;
+    padding: 40px;
+    text-align: center;
+} */
+
+/* .first:hover .second{
+    background-color: green;
+} */
+
+
+
+p{
+    font-size: 50px;
+    position: relative;
+}
+
+
+p::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 5px;
+    background-color: red;
+    transition: 0.7s;
+}
+
+ p:hover::before{
+    width: 1000px;
+}
+
+
+.button{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 20px 40px;
+    background-color: black;
+    border: 2px solid red;
+    color: white;
+    text-decoration: none;
+    position: relative;
+    z-index: 1;
+    transition: 0.7s;
+    font-size: 20px;
+}
+
+.button::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    background-color: red;
+    transition: .7s;
+    z-index: -2;
+    height: 100%;
+}
+
+.button:hover::after{
+    width: 100%;
+}
+
+.button:hover{
+    color: black;
+    border: 2px solid black;
+}
+
+/* 
+h1{
+    position: relative;
+}
+
+h1::after{
+    content: "End";
+    position: absolute;
+}
+h1::before{
+content: "Perviz";
+position: absolute;
+} */
+
+
+
+/*
+relative
+absolute
+fixed
+sticky
+static
+*/
