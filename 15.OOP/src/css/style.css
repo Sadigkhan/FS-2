@@ -1,0 +1,7 @@
+body{
+    transition: 1s;
+}
+
+#lamp{
+    transition: 0.3s;
+}
