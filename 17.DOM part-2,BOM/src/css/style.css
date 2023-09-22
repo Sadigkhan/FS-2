@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+#Header .container .all {
+  position: relative;
+  padding: 0 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: gainsboro;
+  height: 80px;
+}
+
+#Header .container .all .left .logo-div {
+  width: 100px;
+}
+
+#Header .container .all .left .logo-div img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+#Header .container .all .right .menu-icon-btn {
+  border: 0;
+  background: 0;
+  padding: 5px;
+}
+
+#Header .container .all .right .menu-icon-btn i {
+  font-size: 26px;
+}
+
+#Header .container .all .dropdown {
+  position: absolute;
+  height: 400px;
+  width: 100%;
+  background-color: gray;
+  top: 100%;
+  left: 100%;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+#Header .container .all .dropdown .dropdown-ul {
+  list-style: none;
+}
+
+#Header .container .all .dropdown .dropdown-ul .dropdown-item {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#Header .container .all .dropdown .dropdown-ul .dropdown-item .all {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#Header .container .all .dropdown .dropdown-ul .dropdown-item .all span {
+  font-size: 28px;
+}
+
+#Header .container .all .dropdown .dropdown-ul .dropdown-item .all i {
+  font-size: 22px;
+}
+
+#Header .container .all .dropdown .dropdown-ul .dropdown-item .inner-dropdown {
+  height: 0px;
+  -webkit-transition: .3s;
+  transition: .3s;
+  background-color: bisque;
+  overflow: hidden;
+}
+
+#Header .container .all .dropdown .dropdown-ul .dropdown-item .inner-dropdown .inner-ul {
+  padding: 2rem;
+  list-style: none;
+}
+
+#Header .container .all .dropdown .dropdown-ul .dropdown-item .inner-dropdown.active {
+  height: 150px;
+}
+
+#Header .container .all .dropdown.active {
+  left: 0 !important;
+}
+/*# sourceMappingURL=style.css.map */

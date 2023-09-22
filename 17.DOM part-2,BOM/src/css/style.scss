@@ -1,0 +1,125 @@
+// body {
+//     transition: 1s;
+// }
+
+// #lamp {
+//     transition: 0.3s;
+// }
+
+// .text {
+//     color: red;
+//     transition: 0.7s;
+// }
+
+// #Red {
+//     width: 600px;
+//     height: 600px;
+//     background-color: red;
+//     >#Yellow {
+//         width: 300px;
+//         height: 300px;
+//     background-color: yellow;
+
+
+//         >#Green {
+//             width: 150px;
+//             height: 150px;
+//     background-color: green;
+            
+
+//         }
+//     }
+// }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+#Header{
+    .container{
+        .all{
+            position: relative;
+            padding: 0 2rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: gainsboro;
+            height: 80px;
+            .left{
+                .logo-div{
+                    width: 100px;
+                    img{
+                        width: 100%;
+                        height: 100%;
+                        object-fit: contain;
+                    }
+                }
+            }
+            .right{
+                .menu-icon-btn{
+                    border: 0;
+                    background: 0;
+                    padding: 5px;
+                    i{
+                        font-size: 26px;
+                    }
+                }
+            }
+            .dropdown{
+                position: absolute;
+                height: 400px;
+                width: 100%;
+                background-color: gray;
+                top: 100%;
+                left: 100%;
+                transition: .4s;
+                .dropdown-ul{
+                    list-style: none;
+                    .dropdown-item{
+                        width: 100%;
+                        display: flex;
+                        flex-direction: column;
+                        .all{
+                            width: 100%;
+                            display: flex;
+                            align-items: center;
+                            justify-content: space-between;
+                            span{
+                                font-size: 28px;
+                            }
+                            i{
+                                font-size: 22px;
+                            }
+                            
+                        }
+                        .inner-dropdown{
+                            height: 0px;
+                            transition: .3s;
+                            background-color: bisque;
+                            overflow: hidden;
+                            .inner-ul{
+                                padding: 2rem;
+                                list-style: none;
+                                .inner-dropdown-item{
+
+                                }
+                            }
+                        }
+                        .inner-dropdown.active{
+                            height: 150px;
+                        }
+                    }
+                }
+            }
+            .dropdown.active{
+                left: 0 !important;
+            }
+        }
+    }
+}
